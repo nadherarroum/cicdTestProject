@@ -4,7 +4,7 @@ let portApp = process.env.PORT || 3000;
 
 app.get('/', function (req, res) {
   res.send('<h1>Hello World!</h1><h2>CI/CD Test</h2><h3>Link Local to github</h3>\
-  <a href="http://localhost:3000/api/v1/courses">Get API courses</a>');
+  <a href="https://cicdprojecttest.herokuapp.com/api/v1/courses">Get API courses</a>');
 });
 
 app.get('/api/v1/courses',function(req,res){
