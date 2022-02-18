@@ -31,6 +31,12 @@ app.get('/api/v1/courses',function(req,res){
             author:"T. Hajeer",
             tags:['c#','asp','net'],
             isPublished:'false'
+          },
+          {
+            title:"Symfony",
+            author:"J. Wissem",
+            tags:['php','symfony'],
+            isPublished:'true'
           }
         ]);
 });
